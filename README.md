@@ -1,4 +1,4 @@
-#   liqidity staking/Farming
+#   liqidity staking/Farming 
 
 
 
@@ -42,7 +42,7 @@ _Forks of this project should also modify `config.json`. Decimals aren't conside
 tests.
 
 ```
-npm run migrate -- --network development
+truffle migrate -- --network development
 ```
 
 ### Rinkeby
@@ -53,8 +53,8 @@ GAS.
 [Faucet 1](https://testnet.help/en/ethfaucet/rinkeby) | [Faucet 2](https://faucet.rinkeby.io/)
 
 ```
-npm run migrate -- --network rinkeby
-npm run verify -- --network rinkeby
+truffle migrate -- --network rinkeby
+truffle run verify -- --network rinkeby
 ```
 
 You may also want to verify the ERC20Mock and LPMock contracts on Etherscan.
@@ -69,8 +69,8 @@ _Verification may fail because of rate limits. Just try again._
 ### Ethereum mainnet
 
 ```
-npm run migrate -- --network mainnet
-npm run verify -- --network mainnet
+truffle migrate -- --network mainnet
+truffle run verify -- --network mainnet
 ```
 
 The account that is used to create the Farm contract should have a sufficient amount of (LTO) ERC20 to fund the
@@ -150,5 +150,5 @@ IPO MOCK TOKEN: https://testnet.bscscan.com/token/0x5f9e0f75a459453cba8a07519ce8
 ## Deployed on Kovan test net
 FARM: https://kovan.etherscan.io/address/0xdcc83498Bd687Dda3e51aA98B0d09795370e08E7 <br>
 LP MOCK : https://kovan.etherscan.io/address/0x791c567484fE64209C1B819d179fe10797a0f753 <br>
-LTO MOCK TOKEN : https://kovan.etherscan.io/token/0x5a3D821F02e39c1f74CD3A2AEF2d5F5A94c27321
+LTO MOCK TOKEN : https://kovan.etherscan.io/token/0x5a3D821F02e39c1f74CD3A2AEF2d5F5A94c27321<br>
 
