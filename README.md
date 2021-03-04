@@ -1,6 +1,6 @@
-# LTO Network Uniswap liqidity staking
+#   liqidity staking/Farming
 
-![screenshot-stake starcurve io-2020 10 19-13_02_03](https://user-images.githubusercontent.com/100821/96442390-554d4680-120b-11eb-8468-4f2bb0112e5a.png)
+
 
 This project is copied from [sashimiswap](https://github.com/SashimiProject/sashimiswap) and modified to work with
 non-mintable tokens.
@@ -142,9 +142,4 @@ method.
 Any change to the deposit of the participant (with `deposit` or `withdraw`), will pay out the pending reward. It's
 possible to do a zero withdraw to just receive the pending reward.
 
-# Frontend
 
-The `frontend` folder contains the frontend application that displays the uniswap pairs and allows users to participate.
-
-_Note that the frontend is specifically styled and configured for LTO Network. You need to modify it to use it for a
-different project._  
