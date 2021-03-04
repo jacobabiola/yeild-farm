@@ -147,4 +147,8 @@ possible to do a zero withdraw to just receive the pending reward.
 Farm: https://testnet.bscscan.com/address/0xa0e3aec3d84911a4e1e95b013453eb27d63bd4cc#writeContract <br>
 IPO MOCK TOKEN: https://testnet.bscscan.com/token/0x5f9e0f75a459453cba8a07519ce85ffc8e03ef47#writeContract
 
+## Deployed on Kovan test net
+FARM: https://kovan.etherscan.io/address/0xdcc83498Bd687Dda3e51aA98B0d09795370e08E7#writeContract <br>
+LP MOCK : https://kovan.etherscan.io/address/0x791c567484fE64209C1B819d179fe10797a0f753#writeContract <br>
+LTO MOCK TOKEN : https://kovan.etherscan.io/token/0x5a3D821F02e39c1f74CD3A2AEF2d5F5A94c27321#writeContract
 
