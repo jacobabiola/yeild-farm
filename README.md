@@ -142,4 +142,9 @@ method.
 Any change to the deposit of the participant (with `deposit` or `withdraw`), will pay out the pending reward. It's
 possible to do a zero withdraw to just receive the pending reward.
 
+## Deployed on Binance Smart Chain testnet 
+
+Farm: https://testnet.bscscan.com/address/0xa0e3aec3d84911a4e1e95b013453eb27d63bd4cc#writeContract
+IPO MOCK TOKEN: https://testnet.bscscan.com/token/0x5f9e0f75a459453cba8a07519ce85ffc8e03ef47#writeContract
+
 
