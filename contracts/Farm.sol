@@ -7,10 +7,10 @@ import "@openzeppelin/contracts/utils/EnumerableSet.sol";
 import "@openzeppelin/contracts/math/SafeMath.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-// Farm distributes the ERC20 rewards based on staked LP to each user.
+// Farm distributes the BEP20 rewards based on staked LP to each user.
 //
 // Cloned from https://github.com/SashimiProject/sashimiswap/blob/master/contracts/MasterChef.sol
-// Modified by LTO Network to work for non-mintable ERC20.
+// Modified by LTO Network to work for non-mintable BEP20.
 contract Farm is Ownable {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
@@ -20,7 +20,7 @@ contract Farm is Ownable {
         uint256 amount;     // How many LP tokens the user has provided.
         uint256 rewardDebt; // Reward debt. See explanation below.
         //
-        // We do some fancy math here. Basically, any point in time, the amount of ERC20s
+        // We do some fancy math here. Basically, any point in time, the amount of BEP20s
         // entitled to a user but is pending to be distributed is:
         //
         //   pending reward = (user.amount * pool.accERC20PerShare) - user.rewardDebt
